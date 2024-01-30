@@ -2,25 +2,9 @@
 }
 
 @font-face {
-  font-family: "ProtestMono";
+  font-family: "UntitledUnmastered";
   font-style: normal;
-  src: url(../public/fonts/ProtestGroteskMono.ttf) format("truetype"),
-    url(../public/fonts/ProtestGroteskMono.woff) format("woff"),
-    url(../public/fonts/ProtestGroteskMono.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: "GialloRoman";
-  font-style: normal;
-  src: url(../public/fonts/GialloRoman.ttf) format("truetype"),
-    url(../public/fonts/GialloRoman.woff) format("woff"),
-    url(../public/fonts/GialloRoman.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: "GialloRomanMono";
-  font-style: normal;
-  src: url(../public/fonts/GialloRomanMono.ttf) format("truetype");
+  src: url(../public/fonts/NewFont-Regular.woff) format("woff");
 }
 
 * {
@@ -38,7 +22,9 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: "GialloRoman";
+  font-family: "UntitledUnmastered";
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga";
 }
 
 body {
@@ -54,21 +40,23 @@ a {
 
 a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-decoration-: 4px;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
 }
 
 em {
   cursor: not-allowed;
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
 }
 
 p {
-  font-size: 60pt;
-  line-height: 75pt;
-  word-spacing: -3px;
+  font-size: 30pt;
+  line-height: 35pt;
+  word-spacing: -1.5px;
   letter-spacing: -0.8px;
-  font-variation-settings: "wght" 200;
-  font-feature-settings: "ss01", "ss02";
   cursor: default;
 }
 

@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div className="placeholder">
       <p>
-        This is <a href="mailto:mail@markjulienhahn.de">Mark Julien Hahn</a>'s
+        This is <a href="mailto:mail@markjulienhahn.de">Mark Julien Hahn</a>’s
         official landing page. At the moment, he is not showing any of his <em>graphic design</em> or <em>programming</em> projects.<br />
         <br />
         If you are interested in seeing some of his work, go ahead and visit the
