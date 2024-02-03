@@ -4,7 +4,7 @@
 @font-face {
   font-family: "UntitledUnmastered";
   font-style: normal;
-  src: url(../public/fonts/NewFont-Regular.woff) format("woff");
+  src: url(../public/fonts/ProtestGroteskMono-100-Regular.woff) format("woff");
 }
 
 * {
@@ -40,23 +40,24 @@ a {
 
 a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
 }
 
 em {
   cursor: not-allowed;
   font-style: normal;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
 }
 
 p {
-  font-size: 30pt;
-  line-height: 35pt;
-  word-spacing: -1.5px;
-  letter-spacing: -0.8px;
+  font-size: 14pt;
+  line-height: 26pt;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   cursor: default;
 }
 
@@ -70,24 +71,24 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-  p {
+  /* p {
     font-size: 40pt;
     line-height: 48pt;
     word-spacing: -2px;
     letter-spacing: -0.2px;
-  }
+  } */
   .placeholder p {
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  p {
+  /* p {
     font-size: 30pt;
     line-height: 38pt;
     word-spacing: -2px;
     letter-spacing: -0.2px;
-  }
+  } */
   .placeholder p {
     max-width: 100%;
   }
