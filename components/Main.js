@@ -4,16 +4,10 @@ const Main = () => {
   return (
     <div className="placeholder">
       <p>
-        This is <a href="mailto:mail@markjulienhahn.de">Mark Julien Hahn</a>’s
-        official landing page. At the moment, he is not showing any of his <em>graphic design</em> or <em>programming</em> projects.<br />
-        <br />
-        If you are interested in seeing some of his work, go ahead and visit the
-        website of the type-design label that he co-founded, called <a href="https://stereotypefaces.com">Stereo Typefaces</a>. This is the
-        project that he is currently most passionate about.
-        <br />
-        <br />
-        If there are still some questions left, feel free to write him an <a href="mailto:mail@markjulienhahn.de">E-Mail</a>, he will be happy to
-        reply. ✌️
+        Mark Julien Hahn<br/>
+        Graphic Design / Type Design / Programming<br/>
+        Hertastraße 3, 12051 Berlin<br/>
+        <a href="mailto:mail@markjulienhahn.de">mail@markjulienhahn.de</a>
       </p>
     </div>
   );
